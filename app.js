@@ -7,7 +7,7 @@ const mongoose = require("mongoose");
 const cookieParser = require("cookie-parser");
 const checkForAuthenticationCookie = require("./middlewares/authentication");
 const path = require("path");
-const Blog = require("./models/Blog");
+const Blog = require("./models/blog");
 
 const PORT = process.env.PORT || 3000;
 
